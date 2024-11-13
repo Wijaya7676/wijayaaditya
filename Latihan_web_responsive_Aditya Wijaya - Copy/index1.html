@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="product-details">
+        <img src="img/BookStar.png" alt="Product Image" class="product-image">
+        <div class="product-info">
+            <h2>The Star And I</h2>
+            <p class="price">99.000</p>
+            <p class="description">Kisah ini berpusat pada Olivia Mitchell, seorang wanita yang sejak kecil telah mengidamkan untuk menemukan orangtua kandungnya. Kesempatan bekerja di New York membawa Olivia melangkah maju tanpa ragu, berharap bisa menemukan jejak orangtua yang tak pernah ia kenal. Namun, mencari sosok tanpa nama di kota sebesar New York adalah tugas yang tampak mustahil. productnation</p>
+            <button class="buy-now">Beli sekarang</button>
+        </div>
+    </section>
+    <section class="product-details">
+        <img src="img/Book.jpg" alt="product-image" class="product-image">
+        <div class="product-info">
+            <h2>You do You</h2>
+            <p class="price">128.000</p>
+            <p class="description">Buku ini memberikan pengalaman eksperimental yang mendorongmu untuk mencari tujuan hidup dan menghadapi tantangan dengan percaya diri. Fellexandro Ruby dengan indah merangkai kata-kata, mengajakmu untuk berani keluar dari zona nyaman dan mengeksplorasi potensimu yang belum tergali. productnation</p>
+            <button class="buy-now">Beli sekarang</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;di Posting Oleh Aditya Wijaya</p>
+    </footer>
+</body>
+</html>
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.product-info {
+    max-width: 600px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.buy-now {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.buy-now:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+} 
+</style>
